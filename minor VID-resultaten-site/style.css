@@ -1,0 +1,121 @@
+body {
+    background-color: #fcecdc;
+    font-family: sans-serif;
+}
+
+section {
+    padding: 4em;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    margin-top: 3em;
+    /* margin-bottom: 2em; */
+    font-size: 2.5em;
+}
+
+h2 {
+    display: none;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+p:first-child,
+p:nth-child(2) {
+    /* margin-left: 4em; */
+    max-width: 40vw;
+    color: #333;
+}
+
+.highlight-text {
+    font-weight: bold;
+    font-style: italic;
+}
+
+ul:first-of-type {
+    list-style-type: lower-roman;
+    margin-left: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-weight: bold;
+    color: green;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+ul:first-of-type a {
+    font-weight: bold;
+    color: green;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+video {
+    width: 50%;
+}
+
+ul:nth-of-type(2) {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+ul:nth-of-type(2)>li {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: darkgrey;
+    cursor: pointer;
+    font-family: 'Your Preferred Font', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+li#typography a[href="https://miro.com/app/board/uXjVMmeIFtI=/"] {
+    color: darkblue;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+ul:nth-child(2) li p {
+    color: #333;
+}
+
+img:hover {
+    opacity: 0.5;
+    transition: 0.5s ease-in-out;
+}
+
+img:first-of-type,
+img:nth-of-type(2) img:nth-of-type(3) img:nth-of-type(4) img:nth-of-type(5) img:nth-of-type(6) {
+    width: 100%;
+}
+
+img:nth-of-type(3) {
+    width: 50% !important;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 0.5em;
+    font-weight: bold;
+}
